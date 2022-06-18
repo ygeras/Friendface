@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6463FF712A547A35001F093A /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463FF702A547A35001F093A /* UserDataModel.swift */; };
 		B15527E1285C59D00091B8AD /* FriendfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15527E0285C59D00091B8AD /* FriendfaceApp.swift */; };
 		B15527E3285C59D00091B8AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15527E2285C59D00091B8AD /* ContentView.swift */; };
 		B15527E5285C59D30091B8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15527E4285C59D30091B8AD /* Assets.xcassets */; };
 		B15527E8285C59D30091B8AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15527E7285C59D30091B8AD /* Preview Assets.xcassets */; };
+		B15527EF285C59EA0091B8AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15527EE285C59EA0091B8AD /* User.swift */; };
+		B15527F1285C5A6B0091B8AD /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15527F0285C5A6B0091B8AD /* Friend.swift */; };
+		B15527F3285C5D620091B8AD /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15527F2285C5D620091B8AD /* UserView.swift */; };
+		B1EEA03D285D924C00F01E33 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1EEA03B285D924C00F01E33 /* DataModel.xcdatamodeld */; };
+		B1EEA04E285D96B200F01E33 /* CachedFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEA04A285D96B200F01E33 /* CachedFriend+CoreDataClass.swift */; };
+		B1EEA04F285D96B200F01E33 /* CachedFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEA04B285D96B200F01E33 /* CachedFriend+CoreDataProperties.swift */; };
+		B1EEA050285D96B200F01E33 /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEA04C285D96B200F01E33 /* CachedUser+CoreDataClass.swift */; };
+		B1EEA051285D96B200F01E33 /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEA04D285D96B200F01E33 /* CachedUser+CoreDataProperties.swift */; };
+		B1EEA053285D96F600F01E33 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EEA052285D96F600F01E33 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6463FF702A547A35001F093A /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
 		B15527DD285C59D00091B8AD /* Friendface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15527E0285C59D00091B8AD /* FriendfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendfaceApp.swift; sourceTree = "<group>"; };
 		B15527E2285C59D00091B8AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B15527E4285C59D30091B8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15527E7285C59D30091B8AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B15527EE285C59EA0091B8AD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B15527F0285C5A6B0091B8AD /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		B15527F2285C5D620091B8AD /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		B1EEA03C285D924C00F01E33 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		B1EEA04A285D96B200F01E33 /* CachedFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		B1EEA04B285D96B200F01E33 /* CachedFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		B1EEA04C285D96B200F01E33 /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		B1EEA04D285D96B200F01E33 /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		B1EEA052285D96F600F01E33 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,16 @@
 			children = (
 				B15527E0285C59D00091B8AD /* FriendfaceApp.swift */,
 				B15527E2285C59D00091B8AD /* ContentView.swift */,
+				B15527F2285C5D620091B8AD /* UserView.swift */,
+				B15527EE285C59EA0091B8AD /* User.swift */,
+				B15527F0285C5A6B0091B8AD /* Friend.swift */,
+				B1EEA04A285D96B200F01E33 /* CachedFriend+CoreDataClass.swift */,
+				B1EEA04B285D96B200F01E33 /* CachedFriend+CoreDataProperties.swift */,
+				B1EEA04C285D96B200F01E33 /* CachedUser+CoreDataClass.swift */,
+				B1EEA04D285D96B200F01E33 /* CachedUser+CoreDataProperties.swift */,
+				B1EEA052285D96F600F01E33 /* DataController.swift */,
+				6463FF702A547A35001F093A /* UserDataModel.swift */,
+				B1EEA03B285D924C00F01E33 /* DataModel.xcdatamodeld */,
 				B15527E4285C59D30091B8AD /* Assets.xcassets */,
 				B15527E6285C59D30091B8AD /* Preview Content */,
 			);
@@ -137,8 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6463FF712A547A35001F093A /* UserDataModel.swift in Sources */,
 				B15527E3285C59D00091B8AD /* ContentView.swift in Sources */,
+				B1EEA04E285D96B200F01E33 /* CachedFriend+CoreDataClass.swift in Sources */,
+				B1EEA051285D96B200F01E33 /* CachedUser+CoreDataProperties.swift in Sources */,
 				B15527E1285C59D00091B8AD /* FriendfaceApp.swift in Sources */,
+				B1EEA04F285D96B200F01E33 /* CachedFriend+CoreDataProperties.swift in Sources */,
+				B1EEA053285D96F600F01E33 /* DataController.swift in Sources */,
+				B1EEA050285D96B200F01E33 /* CachedUser+CoreDataClass.swift in Sources */,
+				B15527F3285C5D620091B8AD /* UserView.swift in Sources */,
+				B1EEA03D285D924C00F01E33 /* DataModel.xcdatamodeld in Sources */,
+				B15527EF285C59EA0091B8AD /* User.swift in Sources */,
+				B15527F1285C5A6B0091B8AD /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +345,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +381,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1EEA03B285D924C00F01E33 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1EEA03C285D924C00F01E33 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = B1EEA03C285D924C00F01E33 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B15527D5285C59D00091B8AD /* Project object */;
 }
